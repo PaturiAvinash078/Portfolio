@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Paturi Avinash | Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.png">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =================================================
+     Skills Section
+    ================================================== -->
+
+    <div id="globalSkillTooltip" class="global-tooltip">
+        <div class="tooltip-level"></div>
+
+        <div class="tooltip-hover-wrapper">
+            <div class="tooltip-bar-container">
+                <div class="tooltip-bar-fill"></div>
+            </div>
+            <div class="tooltip-percent"></div>
+
+            <div class="tooltip-sub-details">
+                <ul class="tooltip-sub-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- =================================================
+         Interactive Background Network
+    ================================================== -->
+
+    <canvas id="particle-network"></canvas>
+
+
+    <!-- =================================================
+         CURSOR GLOW
+    ================================================== -->
+
+    <div class="cursor-glow"></div>
+
+
+    <!-- =================================================
+         SCROLL PROGRESS
+    ================================================== -->
+
+    <div id="progress-bar"></div>
+
+
+    <!-- =================================================
+         NAVBAR
+    ================================================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <img src="images/profile.jpg" class="navbar-avatar" alt="Profile">
+
+                <span>AVINASH</span>
+
+            </div>
+
+
+            <div class="nav-wrapper">
+
+                <ul class="nav-links">
+
+                    <div class="active-pill"></div>
+
+                    <li>
+                        <a href="#Home" class="nav-link active">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="nav-link">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#education" class="nav-link">
+                            Education
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#My-work" class="nav-link">
+                            My Work
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="nav-link">
+                            Skills
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#certifications" class="nav-link">
+                            Certifications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#rewards" class="nav-link">
+                            Awards
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#contact" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- =================================================
+         FOLLOW ME ON 
+    ================================================== -->
+    <aside class="social-sidebar" aria-label="Social media links">
+        <span class="social-sidebar-line1"></span>
+        <div class="social-sidebar-heading">FOLLOW ME ON</div>
+
+        <a href="https://www.instagram.com/_avinovaeditz_/_avinovaeditz_" class="social-icon instagram" target="_blank"
+            rel="noopener noreferrer" aria-label="">
+            <img src="images/instagram.png" alt="">
+        </a>
+
+        <a href="https://www.linkedin.com/in/paturiavinash/Avinash" class="social-icon linkedin" target="_blank"
+            rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="images/linkedin.png" alt="">
+        </a>
+
+        <a href="https://github.com/PaturiAvinash078" class="social-icon github" target="_blank"
+            rel="noopener noreferrer" aria-label="GitHub">
+            <img src="images/github.png" alt="">
+        </a>
+
+        <span class="social-sidebar-line2"></span>
+    </aside>
+
+
+    <!-- ============================================================
+   HOME SECTION (Expanded Open Portrait Layout)
+   ============================================================ -->
+    <section class="home-section" id="Home">
+        <!-- Large background typography depth effect -->
+        <div class="hero-bg-text">PORTFOLIO</div>
+
+        <div class="home-container">
+            <!-- LEFT COLUMN: Intro & Name -->
+            <div class="home-text-column">
+                <span class="hero-greeting">Hello, I'm</span>
+                <h1 class="hero-name">PATURI <br><span class="highlight-title">AVINASH</span></h1>
+                <h3 class="hero-role">Computer Science Student</h3>
+                <p class="hero-description">
+                    Passionate about programming, web development, problem-solving, and continuous learning. I build
+                    clean, user-centric interfaces and robust digital solutions.
+                </p>
+                <div class="hero-meta-row">
+                    <a href="#My-work" class="project-btn hero-cta">View More</a>
+                    <div class="hero-location">
+                        <i class="fas fa-map-marker-alt"></i> BASED IN INDIA
+                    </div>
+                </div>
+            </div>
+
+            <!-- CENTER IMAGE COLUMN: Container-less expanded portrait -->
+            <div class="home-image-column">
+                <img src="images/dp.png" alt="Paturi Avinash" class="hero-profile-img">
+            </div>
+
+            <!-- RIGHT COLUMN: Core Focus / Feature List -->
+            <div class="home-features-column">
+                <ul class="hero-features-list">
+                    <li><i class="fas fa-plus"></i>Turning code into powerful digital experiences</li>
+                    <li><i class="fas fa-plus"></i> Full-Stack Development</li>
+                    <li><i class="fas fa-plus"></i> Pixel-Perfect Interfaces</li>
+                    <li><i class="fas fa-plus"></i> Algorithmic Problem Solving</li>
+                    <li><i class="fas fa-plus"></i>Visual Story telling</li>
+                    <li><i class="fas fa-plus"></i>Converting raw footaeg to interactive visuals</li>
+                    <li><i class="fas fa-plus"></i>Designing eye catch visual desgin poster/banner</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- =================================================
+         ABOUT
+    ================================================== -->
+
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-layout-wrapper">
+
+            <!-- Top Section: Full Width Story -->
+            <div class="about-story-full">
+                <h3>My Story</h3>
+                <p>
+                    My journey into technology began with a curiosity about how digital solutions are created and how
+                    they shape everyday life. As a Computer Science student, I am passionate about programming,
+                    web development, and problem-solving. Through academics and hands-on projects, I
+                    continuously strengthen my technical skills and explore new technologies.
+                </p>
+                <p>
+                    I enjoy transforming ideas into practical, user-friendly solutions while focusing on
+                    creativity and continuous learning. My goal is to grow as a software developer and
+                    contribute to innovative projects that make a meaningful impact.
+                </p>
+            </div>
+
+            <!-- Bottom Section: Split Columns -->
+            <div class="about-columns-grid">
+
+                <!-- Left Column (Student)-->
+                <div class="about-sub-card">
+                    <h3>As Student</h3>
+                    <p>
+                        Currently, I am pursuing my Bachelor's degree in Computer Science and actively building my
+                        skills
+                        in programming and web development.
+                    </p>
+                    <p>
+                        I am working on academic and personal projects, exploring modern technologies, and strengthening
+                        my problem-solving abilities through continuous learning and practical experience.
+                    </p>
+                    <p>
+                        My focus is on developing a strong technical foundation while gaining hands-on experience
+                        that prepares me for future opportunities in the technology industry.
+                    </p>
+                </div>
+
+                <!-- Right Column(Media designer)-->
+                <div class="about-sub-card">
+                    <h3>As Media designer</h3>
+                    <p>
+                        Complementing my technical capabilities, I specialize in digital asset creation, user interface
+                        layouts, and producing intuitive visual designs that improve overall product interactions.
+                    </p>
+                    <p>
+                        I combine aesthetic principles with technical frontend code to construct engaging web platforms,
+                        brand assets, graphics, and layouts that align perfectly with business and user needs.
+                    </p>
+                    <p>
+                        My focus is on bringing absolute creative clarity to applications, blending functional
+                        programming concepts directly with modern user-centered UI/UX design trends.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         EDUCATION & CREATIVE ARTS
+    ================================================== -->
+    <section id="education" class="section">
+
+        <!-- Main section layout grid container wrapper -->
+        <div class="education-grid-wrapper">
+
+            <!-- LEFT SIDED TRACK: ACADEMICS -->
+            <div class="academics-column">
+                <div class="section-title" style="text-align: left; margin-bottom: 30px;">
+                    <h2>Education</h2>
+                </div>
+
+                <div class="education-timeline">
+
+                    <!-- 1. Schooling -->
+                    <div class="education-item">
+                        <div class="education-dot">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div class="education-card">
+                            <div class="education-year">2013 - 2024</div>
+                            <div class="education-icon"><i class="fa-solid fa-school"></i></div>
+                            <div class="education-content">
+                                <h3>Schooling</h3>
+                                <h4>Narayana e-Techno School</h4>
+                                <p class="education-description">
+                                    Completed schooling under the CBSE curriculum, building a strong academic
+                                    foundation.
+                                </p>
+                                <div class="education-details">
+                                    <div class="education-detail">
+                                        <span>Board</span>
+                                        <strong>CBSE</strong>
+                                    </div>
+                                    <div class="education-detail">
+                                        <span>Percentage</span>
+                                        <strong>80%</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Higher Secondary -->
+                    <div class="education-item">
+                        <div class="education-dot">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <div class="education-card">
+                            <div class="education-year">2023 - 2025</div>
+                            <div class="education-icon"><i class="fa-solid fa-book-open"></i></div>
+                            <div class="education-content">
+                                <h3>Higher Secondary Education</h3>
+                                <h4>Narayana Junior College</h4>
+                                <p class="education-description">
+                                    Completed higher secondary education with Mathematics, Physics and Chemistry as the
+                                    main subjects.
+                                </p>
+                                <div class="education-details">
+                                    <div class="education-detail">
+                                        <span>Stream</span>
+                                        <strong>MPC</strong>
+                                    </div>
+                                    <div class="education-detail">
+                                        <span>Percentage</span>
+                                        <strong>90%</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Undergraduate -->
+                    <div class="education-item">
+                        <div class="education-dot">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-card">
+                            <div class="education-year">2025 - Present</div>
+                            <div class="education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="education-content">
+                                <h3>Undergraduate Education</h3>
+                                <h4>Raghu Engineering College</h4>
+                                <p class="education-description">
+                                    Currently pursuing B.Tech in Computer Science Engineering and developing technical
+                                    and problem-solving skills.
+                                </p>
+                                <div class="education-details">
+                                    <div class="education-detail">
+                                        <span>Program</span>
+                                        <strong>B.Tech - CSE</strong>
+                                    </div>
+                                    <div class="education-detail">
+                                        <span>CGPA</span>
+                                        <strong>N/A</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- RIGHT SIDED TRACK: CREATIVE ARTS -->
+            <div class="creative-arts-column">
+                <div class="section-title" style="text-align: left; margin-bottom: 30px;">
+                    <h2>Creative Arts</h2>
+                </div>
+
+                <div class="education-timeline">
+
+                    <!-- 1. Video Editing -->
+                    <div class="education-item">
+                        <div class="education-dot">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                        <div class="education-card">
+                            <div class="education-icon"><i class="fa-solid fa-video"></i></div>
+                            <div class="education-content">
+                                <h3>Video Editing</h3>
+                                <p class="education-description">
+                                    Crafting high-quality visual stories through advanced timeline editing, seamless
+                                    transitions, color grading, and dynamic audio synchronization.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Graphic Designing -->
+                    <div class="education-item">
+                        <div class="education-dot">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <div class="education-card">
+                            <div class="education-icon"><i class="fa-solid fa-palette"></i></div>
+                            <div class="education-content">
+                                <h3>Graphic Designing</h3>
+                                <p class="education-description">
+                                    Creating impactful brand visuals, layouts, vectors, and marketing assets tailored to
+                                    modern digital mediums and high user engagements.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ============================================================
+   MY WORK SECTION (Full Screen Split with 3D Stacks & Hover Image Popup)
+   ============================================================ -->
+    <section class="section" id="My-work">
+        <div class="section-title">
+            <h2>
+                My Work
+            </h2>
+        </div>
+
+        <div class="mywork-note">
+            <i class="fas fa-hand-pointer"></i>
+            Hover on images to view
+        </div>
+
+        <div class="work-screen-split">
+
+            <!-- LEFT COLUMN: AS STUDENT -->
+            <div class="work-half-column">
+                <h3 class="column-title">As Student</h3>
+
+                <!-- STUDENT CONTROLS -->
+                <div class="stack-controls" id="studentControls">
+                    <button type="button" class="stack-arrow-btn" onclick="slideProjectStack('student', 'up')"
+                        aria-label="Student Up">&#8593;</button>
+                    <button type="button" class="stack-arrow-btn" onclick="slideProjectStack('student', 'down')"
+                        aria-label="Student Down">&#8595;</button>
+                </div>
+
+                <div class="stack-wrapper">
+                    <div class="project-stack" id="studentStack">
+                        <!-- Project Card 1 -->
+                        <div class="project-card active" data-index="0">
+                            <div class="project-preview-container">
+                                <div class="project-preview" style="background-image: url('images/login.png'); background-position: 85% center; background-size: cover;"></div>
+                                <div class="full-image-popup wide-popup "
+                                    style="background-image: url('images/login.png');"></div>
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title">Basic Login Page</h4>
+                                <p class="project-tech-label">Tech used:</p>
+                                <div class="project-tags-row">
+                                    <span class="project-tech-tag">HTML</span>
+                                    <span class="project-tech-tag">CSS</span>
+                                    <span class="project-tech-tag">JavaScript</span>
+                                </div>
+                                <p class="project-description">The first thing i have build using web development skills , A clean and simple ui just as a practiced based</p>
+                            </div>
+                            <a href="https://github.com/your-username/login-page" target="_blank"
+                                class="project-btn">View Project</a>
+                        </div>
+
+                        <!-- Project Card 2 -->
+                        <div class="project-card next" data-index="1">
+                            <div class="project-preview-container">
+                                <div class="project-preview" style="background-image: url('images/portfolio.png');">
+                                </div>
+                                <div class="full-image-popup wide-popup"
+                                    style="background-image: url('images/portfolio.png');"></div>
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title">Personal Portfolio</h4>
+                                <p class="project-tech-label">Tech used:</p>
+                                <div class="project-tags-row">
+                                    <span class="project-tech-tag">HTML</span>
+                                    <span class="project-tech-tag">CSS</span>
+                                    <span class="project-tech-tag">JS</span>
+                                </div>
+                                <p class="project-description">An interactive portfolio showcasing all my details-projects,
+                                    certificates, and skills.</p>
+                            </div>
+                            <a href="https://github.com/PaturiAvinash078/Portfolio" target="_blank"
+                                class="project-btn">View Project</a>
+                        </div>
+
+                        <!-- Project Card 3 -->
+                        <div class="project-card depth" data-index="2">
+                            <div class="project-preview-container">
+                                <div class="project-preview" style="background-image: url('images/SS.png');">
+                                </div>
+                                <div class="full-image-popup tall-popup"
+                                    style="background-image: url('images/SS.png');">
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title">ScribeSync</h4>
+                                <p class="project-tech-label">Tech used:</p>
+                                <div class="project-tags-row">
+                                    <span class="project-tech-tag">gitignore</span>
+                                    <span class="project-tech-tag">html</span>
+                                    <span class="project-tech-tag">nodejs</span>
+                                    <span class="project-tech-tag">Ai tools</span>
+                                </div>
+                                <p class="project-description">A Startup idea of build a product which is useful for students and 
+                                    learning people who really facing trouble to keep the notes sorted.</p>
+                            </div>
+                            <a href="https://github.com/PaturiAvinash078/ScibeSync" target="_blank"
+                                class="project-btn">View
+                                Project</a>
+                        </div>
+
+                        <!-- Project Card 4 -->
+                        <div class="project-card active" data-index="0">
+                            <div class="project-preview-container">
+                                <div class="project-preview" style="background-image: url('images/sih.png');"></div>
+                                <div class="full-image-popup wide-popup "
+                                    style="background-image: url('images/sih.png');"></div>
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title">SIH Project</h4>
+                                <p class="project-tech-label">Tech used:</p>
+                                <div class="project-tags-row">
+                                    <span class="project-tech-tag">rocket Ai</span>
+                                </div>
+                                <p class="project-description">A website built using rocekt ai to just shocase the solution for one of the
+                                    problem statment in SIH [2026]</p>
+                            </div>
+                            <a href="https://github.com/PaturiAvinash078/SIH-Sentinal" target="_blank"
+                                class="project-btn">View Project</a>
+                        </div>
+                        <!--Add more-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN: AS MEDIA DESIGNER -->
+            <div class="work-half-column designer-column">
+                <h3 class="column-title">As Media designer</h3>
+
+                <!-- DESIGNER CONTROLS -->
+                <div class="stack-controls" id="designerControls">
+                    <button type="button" class="stack-arrow-btn" onclick="slideProjectStack('designer', 'up')"
+                        aria-label="Designer Up">&#8593;</button>
+                    <button type="button" class="stack-arrow-btn" onclick="slideProjectStack('designer', 'down')"
+                        aria-label="Designer Down">&#8595;</button>
+                </div>
+
+                <div class="stack-wrapper">
+                    <div class="project-stack" id="designerStack">
+                        <!-- Design Card 1 -->
+                        <div class="project-card active" data-index="0">
+                            <div class="project-preview-container">
+                                <div class="project-preview" style="background-image: url('images/2024-25.png');"></div>
+                                <div class="full-image-popup tall-popup"
+                                    style="background-image: url('images/2024-25.png');">
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title">College Magazine [2024-25]</h4>
+                                <p class="project-tech-label">Tools used:</p>
+                                <div class="project-tags-row">
+                                    <span class="project-tech-tag">Canva</span>
+                                </div>
+                                <p class="project-description">A beautifully styled yearly magazine of college</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1DT-k3y62abmYQkyyJaONurdQ_lzkzQlV/view?usp=drive_link"
+                                target="_blank" class="project-btn">View Magazine</a>
+                        </div>
+
+                        <!-- Design Card 2 -->
+                        <div class="project-card active" data-index="1">
+                            <div class="project-preview-container">
+                                <div class="project-preview" style="background-image: url('images/Jan-march.png');">
+                                </div>
+                                <div class="full-image-popup tall-popup"
+                                    style="background-image: url('images/Jan-march.png');">
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title">College News Letter [Jan-Mar]</h4>
+                                <p class="project-tech-label">Tools used:</p>
+                                <div class="project-tags-row">
+                                    <span class="project-tech-tag">Canva</span>
+                                </div>
+                                <p class="project-description">A beautifully designed monthly news letter for college.</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1-MzmCFMPc-rSNDqer1DCnAhoQIZbo-AN/view?usp=drive_link"
+                                target="_blank" class="project-btn">View News Letter</a>
+                        </div>
+
+                        <!-- Design Card 3 -->
+                        <div class="project-card active" data-index="2">
+                            <div class="project-preview-container">
+                                <div class="project-preview" style="background-image: url('images/April-june.png');">
+                                </div>
+                                <div class="full-image-popup tall-popup"
+                                    style="background-image: url('images/April-june.png');">
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title">College News Letter [April-June]</h4>
+                                <p class="project-tech-label">Tools used:</p>
+                                <div class="project-tags-row">
+                                    <span class="project-tech-tag">Canva</span>
+                                </div>
+                                <p class="project-description">A beautifully designed monthly news letter for college.</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1xQAxXr2b_rIPF3sjiae0SzGOEyJGsETP/view?usp=drive_link"
+                                target="_blank" class="project-btn">View News Letter</a>
+                        </div>
+
+                        <!-- Design Card 4 -->
+                        <div class="project-card active" data-index="3">
+                            <div class="project-preview-container">
+                                <div class="project-preview" style="background-image: url('images/2025-26.png');"></div>
+                                <div class="full-image-popup tall-popup"
+                                    style="background-image: url('images/2025-26.png');">
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title">College Magazine [2025-26]</h4>
+                                <p class="project-tech-label">Tools used:</p>
+                                <div class="project-tags-row">
+                                    <span class="project-tech-tag">Canva</span>
+                                </div>
+                                <p class="project-description">A beautifully styled yearly magazine of college</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1ziqZoHtjXWh1Gm477auB7bg5Qwhhb5kN/view?usp=sharing"
+                                target="_blank" class="project-btn">View Magazine</a>
+                        </div>
+
+                        <!-- Design Card 5 -->
+                        <div class="project-card depth" data-index="4">
+                            <div class="project-preview-container">
+                                <div class="project-preview" style="background-image: url('images/REC\ ENG.png');">
+                                </div>
+                                <div class="full-image-popup tall-popup"
+                                    style="background-image: url('images/REC\ ENG.png');">
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title">Event Poster</h4>
+                                <p class="project-tech-label">Tools used:</p>
+                                <div class="project-tags-row">
+                                    <span class="project-tech-tag">Canva</span>
+                                </div>
+                                <p class="project-description">A vibrant poster layout optimized for the details regranding an event organization. </p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1KqTDa0NnASgQtRy3ghzNB8lunMSavvD0/view?usp=sharing"
+                                target="_blank" class="project-btn">View Poster</a>
+                        </div>
+
+                        <!-- Design Card 6 -->
+                        <div class="project-card next" data-index="5">
+                            <div class="project-preview-container">
+                                <div class="project-preview" style="background-image: url('images/YT.png');"></div>
+                                <div class="full-image-popup wide-popup"
+                                    style="background-image: url('images/YT.png');"></div>
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-title">Youtube channel Thumbnails</h4>
+                                <p class="project-tech-label">Tools used:</p>
+                                <div class="project-tags-row">
+                                    <span class="project-tech-tag">Canva</span>
+                                </div>
+                                <p class="project-description">An eye-catching various Thumbnails desingned for youtube channel.</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1T9cOZQk11aa8DhoH3Ms5WBcsyneC2ldE/view?usp=drive_link"
+                                target="_blank" class="project-btn">View Designs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- =================================================
+         SKILLS
+    ================================================== -->
+
+    <section id="skills" class="section">
+
+        <div class="section-title">
+            <h2>
+                Skills
+
+                <span class="cert-tip">
+                    Click icons to view details
+                </span>
+
+
+            </h2>
+        </div>
+
+        <div class="skills-marquee-container" id="skillsMarquee">
+            <div class="skills-marquee-track">
+
+                <!-- ================= FIRST SET ================= -->
+                <div class="skills-set">
+                    <div class="skill-group">
+
+                        <!--=====Programming set ======-->
+                        <span class="group-title">Programming</span>
+                        <div class="skill-items">
+                            <!--===== C Language ======-->
+                            <div class="skill-card" data-skill="C" data-level="Advanced" data-percent="83%"
+                                data-details="All the fundamental basics|Concepts of Arrays, Pointers, strings, Functions, Recursion|Dynamic memory allocations, Unions, Structures, File handeling">
+                                <img src="images/c.png" alt="C">
+                                <p>C</p>
+                            </div>
+                            <!--===== Python Language ======-->
+                            <div class="skill-card" data-skill="Python" data-level="Intermediate" data-percent="63%"
+                                data-details="All the fundamental basics|Concepts of arrays, lists, tuples, sets, strings, Functions">
+                                <img src="images/python.png" alt="Python">
+                                <p>Python</p>
+                            </div>
+                            <!--===== Java Language ======-->
+                            <div class="skill-card" data-skill="Java" data-level="Intermediate" data-percent="78%"
+                                data-details="Concetps of OOPS, Basic fundamentals of OOPS|Principles of oops|Exception Handeling,Multi threading|Java FX GUI">
+                                <img src="images/java.png" alt="Java">
+                                <p>Java</p>
+                            </div>
+                            <!--New Programm Skill-->
+                        </div>
+                    </div>
+
+                    <div class="skill-divider"></div>
+                    <!--===== Web development set ======-->
+                    <div class="skill-group">
+                        <span class="group-title">Web development</span>
+                        <div class="skill-items">
+                            <!--===== HTML Language ======-->
+                            <div class="skill-card" data-skill="HTML" data-level="Intermediate" data-percent="72%"
+                                data-details="Semantic HTML5 Elements|Forms and User Input|Tables and Data Organization| Multimedia Embedding|Attributes and Custom Data|Document Object Model (DOM) Awareness|Basic Accessibility (a11y) and SEO">
+                                <img src="images/HTML.png" alt="HTML">
+                                <p>HTML</p>
+                            </div>
+                            <!--===== CSS Language ======-->
+                            <div class="skill-card" data-skill="CSS" data-level="Intermediate" data-percent="53%"
+                                data-details="Flexbox Mastery, CSS Grid, Advanced Positioning|CSS Variables, BEM Methodology, Specificity Control|Fluid Typography & Spacin, Modern Media Queries, Logical Properties|Transitions & Animations,Transforms & Clipping">
+                                <img src="images/CSS.png" alt="CSS">
+                                <p>CSS</p>
+                            </div>
+                            <!--New webdevelopment skill-->
+                        </div>
+                    </div>
+
+                    <div class="skill-divider"></div>
+
+                    <div class="skill-group">
+                        <!--===== Creative set ======-->
+                        <span class="group-title">Creative</span>
+                        <div class="skill-items">
+                            <!--===== Design ======-->
+                            <div class="skill-card" data-skill="Designing" data-level="Intermediate" data-percent="57%"
+                                data-details="Design Thinking|Layout and Composition|Digital Optimization|Motion Graphics Basics">
+                                <img src="images/Design.jpg" alt="Designing">
+                                <p>Designing</p>
+                            </div>
+                            <!--=====Editing======-->
+                            <div class="skill-card" data-skill="Editing" data-level="Intermediate" data-percent="66%"
+                                data-details="Advance cuts|Audio Design & Mixing|Color Correction & Grading|Effects & Motion Graphics">
+                                <img src="images/Editing.png" alt="Editing">
+                                <p>Editing</p>
+                            </div>
+                            <!--New creative skill-->
+                        </div>
+                    </div>
+
+                    <div class="skill-divider"></div>
+                    <!--===== Tools ======-->
+                    <div class="skill-group">
+                        <span class="group-title">Tools</span>
+                        <div class="skill-items">
+                            <!--===== VS code ======-->
+                            <div class="skill-card" data-skill="VS code" data-level="Intermediate" data-percent="63%"
+                                data-details="Advanced Keyboard Navigation & Editing| Integrated Terminal & Build Tools">
+                                <img src="images/VS code.png" alt="VS code">
+                                <p>VS code</p>
+                            </div>
+                            <!--=====Canva======-->
+                            <div class="skill-card" data-skill="Canva" data-level="Advanced" data-percent="83%"
+                                data-details="Layering and Positioning|Grouping and Aligning|Custom Masking and Frames|Custom Animations|Page Transitions">
+                                <img src="images/Canva.png" alt="Canva">
+                                <p>Canva</p>
+                            </div>
+                            <!--===== Capcut ======-->
+                            <div class="skill-card" data-skill="Capcut" data-level="Intermediate" data-percent="68%"
+                                data-details="Manual Keyframing|Compound Clips|Masking|Chroma Key & Auto Cutout|Audio Keyframing|Sound Effects (SFX) Layering|Color Wheel Grading|Custom Text Animation">
+                                <img src="images/Capcut.png" alt="Capcut">
+                                <p>Capcut</p>
+                            </div>
+                            <!--===== Premier Pro ======-->
+                            <div class="skill-card" data-skill="Premier Pro" data-level="Beginner" data-percent="27%"
+                                data-details="The 4 Core Panels:Project Panel, Source Monitor, Program Monitor, Timeline|Project Creation, Folder Organization|Essential Editing Tools & Shortcuts|Audio Levels, Adding Text/Titles">
+                                <img src="images/Pr.png" alt="Premier Pro">
+                                <p>Premier Pro</p>
+                            </div>
+                            <!--Add new tool-->
+                        </div>
+                    </div>
+
+                    <div class="skill-divider"></div>
+                    <!--===== Soft Skills ======-->
+                    <div class="skill-group">
+                        <span class="group-title">Soft Skills</span>
+                        <div class="skill-items">
+                            <!--===== Communication    ======-->
+                            <div class="skill-card" data-skill="Communication" data-level="Advanced" data-percent="78%"
+                                data-details="Communicating in 3 different languages|Hindi|English|Telugu">
+                                <img src="images/Communication.jpg" alt="Communication">
+                                <p>Communication</p>
+                            </div>
+                            <!--===== Teamwork ======-->
+                            <div class="skill-card" data-skill="Teamwork" data-level="Intermediate" data-percent="66%"
+                                data-details="Active participation in working with team|Managing team|Helpig teammates for better development">
+                                <img src="images/Teamwork.png" alt="Teamwork">
+                                <p>Teamwork</p>
+                            </div>
+                            <!--===== ProblemSolving ======-->
+                            <div class="skill-card" data-skill="ProblemSolving" data-level="Intermediate"
+                                data-percent="76%"
+                                data-details="Identifying core probelm|Understandig the problem adn finding accurate solution">
+                                <img src="images/ProblemSolving.png" alt="ProblemSolving">
+                                <p>ProblemSolving</p>
+                            </div>
+                            <!--Add new soft skill-->
+                        </div>
+                    </div>
+                    <!--Add new group of skill-->
+                </div>
+                <!-- END OF FIRST SET -->
+                <div class="skill-divider"></div>
+
+                <!-- ================= SECOND SET (EXACT DUPLICATE) ================= -->
+                <div class="skills-set">
+                    <div class="skill-group">
+
+                        <!--=====Programming set ======-->
+                        <span class="group-title">Programming</span>
+                        <div class="skill-items">
+                            <!--===== C Language ======-->
+                            <div class="skill-card" data-skill="C" data-level="Advanced" data-percent="83%"
+                                data-details="All the fundamental basics|Concepts of Arrays, Pointers, strings, Functions, Recursion|Dynamic memory allocations, Unions, Structures, File handeling">
+                                <img src="images/c.png" alt="C">
+                                <p>C</p>
+                            </div>
+                            <!--===== Python Language ======-->
+                            <div class="skill-card" data-skill="Python" data-level="Intermediate" data-percent="63%"
+                                data-details="All the fundamental basics|Concepts of arrays, lists, tuples, sets, strings, Functions">
+                                <img src="images/python.png" alt="Python">
+                                <p>Python</p>
+                            </div>
+                            <!--===== Java Language ======-->
+                            <div class="skill-card" data-skill="Java" data-level="Intermediate" data-percent="78%"
+                                data-details="Concetps of OOPS, Basic fundamentals of OOPS|Principles of oops|Exception Handeling,Multi threading|Java FX GUI">
+                                <img src="images/java.png" alt="Java">
+                                <p>Java</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-divider"></div>
+                    <!--===== Web development set ======-->
+                    <div class="skill-group">
+                        <span class="group-title">Web development</span>
+                        <div class="skill-items">
+                            <!--===== HTML Language ======-->
+                            <div class="skill-card" data-skill="HTML" data-level="Intermediate" data-percent="72%"
+                                data-details="Semantic HTML5 Elements|Forms and User Input|Tables and Data Organization| Multimedia Embedding|Attributes and Custom Data|Document Object Model (DOM) Awareness|Basic Accessibility (a11y) and SEO">
+                                <img src="images/HTML.png" alt="HTML">
+                                <p>HTML</p>
+                            </div>
+                            <!--===== CSS Language ======-->
+                            <div class="skill-card" data-skill="CSS" data-level="Intermediate" data-percent="53%"
+                                data-details="Flexbox Mastery, CSS Grid, Advanced Positioning|CSS Variables, BEM Methodology, Specificity Control|Fluid Typography & Spacin, Modern Media Queries, Logical Properties|Transitions & Animations,Transforms & Clipping">
+                                <img src="images/CSS.png" alt="CSS">
+                                <p>CSS</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-divider"></div>
+
+                    <div class="skill-group">
+                        <!--===== Creative set ======-->
+                        <span class="group-title">Creative</span>
+                        <div class="skill-items">
+                            <!--===== Design ======-->
+                            <div class="skill-card" data-skill="Designing" data-level="Intermediate" data-percent="57%"
+                                data-details="Design Thinking|Layout and Composition|Digital Optimization|Motion Graphics Basics">
+                                <img src="images/Design.jpg" alt="Designing">
+                                <p>Designing</p>
+                            </div>
+                            <!--=====Editing======-->
+                            <div class="skill-card" data-skill="Editing" data-level="Intermediate" data-percent="66%"
+                                data-details="Advance cuts|Audio Design & Mixing|Color Correction & Grading|Effects & Motion Graphics">
+                                <img src="images/Editing.png" alt="Editing">
+                                <p>Editing</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-divider"></div>
+                    <!--===== Tools ======-->
+                    <div class="skill-group">
+                        <span class="group-title">Tools</span>
+                        <div class="skill-items">
+                            <!--===== VS code ======-->
+                            <div class="skill-card" data-skill="VS code" data-level="Intermediate" data-percent="63%"
+                                data-details="Advanced Keyboard Navigation & Editing| Integrated Terminal & Build Tools">
+                                <img src="images/VS code.png" alt="VS code">
+                                <p>VS code</p>
+                            </div>
+                            <!--=====Canva======-->
+                            <div class="skill-card" data-skill="Canva" data-level="Advanced" data-percent="83%"
+                                data-details="Layering and Positioning|Grouping and Aligning|Custom Masking and Frames|Custom Animations|Page Transitions">
+                                <img src="images/Canva.png" alt="Canva">
+                                <p>Canva</p>
+                            </div>
+                            <!--===== Capcut ======-->
+                            <div class="skill-card" data-skill="Capcut" data-level="Intermediate" data-percent="68%"
+                                data-details="Manual Keyframing|Compound Clips|Masking|Chroma Key & Auto Cutout|Audio Keyframing|Sound Effects (SFX) Layering|Color Wheel Grading|Custom Text Animation">
+                                <img src="images/Capcut.png" alt="Capcut">
+                                <p>Capcut</p>
+                            </div>
+                            <!--===== Premier Pro ======-->
+                            <div class="skill-card" data-skill="Premier Pro" data-level="Beginner" data-percent="27%"
+                                data-details="The 4 Core Panels:Project Panel, Source Monitor, Program Monitor, Timeline|Project Creation, Folder Organization|Essential Editing Tools & Shortcuts|Audio Levels, Adding Text/Titles">
+                                <img src="images/Pr.png" alt="Premier Pro">
+                                <p>Premier Pro</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-divider"></div>
+                    <!--===== Soft Skills ======-->
+                    <div class="skill-group">
+                        <span class="group-title">Soft Skills</span>
+                        <div class="skill-items">
+                            <!--===== Communication    ======-->
+                            <div class="skill-card" data-skill="Communication" data-level="Advanced" data-percent="78%"
+                                data-details="Communicating in 3 different languages|Hindi|English|Telugu">
+                                <img src="images/Communication.jpg" alt="Communication">
+                                <p>Communication</p>
+                            </div>
+                            <!--===== Teamwork ======-->
+                            <div class="skill-card" data-skill="Teamwork" data-level="Intermediate" data-percent="66%"
+                                data-details="Active participation in working with team|Managing team|Helpig teammates for better development">
+                                <img src="images/Teamwork.png" alt="Teamwork">
+                                <p>Teamwork</p>
+                            </div>
+                            <!--===== ProblemSolving ======-->
+                            <div class="skill-card" data-skill="ProblemSolving" data-level="Intermediate"
+                                data-percent="76%"
+                                data-details="Identifying core probelm|Understandig the problem adn finding accurate solution">
+                                <img src="images/ProblemSolving.png" alt="ProblemSolving">
+                                <p>ProblemSolving</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF SECOND SET -->
+            </div>
+    </section>
+    <!-- =================================================
+         CERTIFICATIONS
+    ================================================== -->
+    <section id="certifications" class="section">
+        <div class="section-title">
+            <h2>
+                Certifications
+            </h2>
+        </div>
+
+        <div class="carousel-3d-wrapper">
+            <!-- Left Navigation Button -->
+            <button class="carousel-nav-btn prev-btn" id="coverflowPrev"
+                aria-label="Previous Certificate">&#10094;</button>
+
+            <!-- Track Container -->
+            <div class="carousel-track-container">
+                <div class="carousel-3d-track" id="coverflowTrack">
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/illuminate.jpg');"></div>
+                        <div class="cert-card-info">
+                            <h3>Illuminate Entrepreneurship Bootcamp</h3>
+                            <p class="cert-issuer">E-Cell IIT Bombay</p>
+                            <span class="cert-field">Entrepreneurship</span>
+                        </div>
+                        <button type="button" class="view-cert-btn"
+                            onclick="openCertLightbox('images/illuminate.jpg')">View Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/multimodal-ai.jpg');"></div>
+                        <div class="cert-card-info">
+                            <h3>Multi-Modal Artificial Intelligence</h3>
+                            <p class="cert-issuer">Raghu Engineering College</p>
+                            <span class="cert-field">Artificial Intelligence</span>
+                        </div>
+                        <button type="button" class="view-cert-btn"
+                            onclick="openCertLightbox('images/multimodal-ai.jpg')">View Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/English day.jpg');"></div>
+                        <div class="cert-card-info">
+                            <h3>English day</h3>
+                            <p class="cert-issuer">Raghu Engineering college</p>
+                            <span class="cert-field">Participation</span>
+                        </div>
+                        <button type="button" class="view-cert-btn"
+                            onclick="openCertLightbox('images/English day.jpg')">View Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/Pr.jpeg');"></div>
+                        <div class="cert-card-info">
+                            <h3>Premiere Pro Workshop</h3>
+                            <p class="cert-issuer">Raghu Engineering college</p>
+                            <span class="cert-field">Video editing</span>
+                        </div>
+                        <button type="button" class="view-cert-btn" onclick="openCertLightbox('images/Pr.jpeg')">View
+                            Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/ai-tools.jpg');"></div>
+                        <div class="cert-card-info">
+                            <h3>AI Tools & ChatGPT Workshop</h3>
+                            <p class="cert-issuer">be10x</p>
+                            <span class="cert-field">Generative AI</span>
+                        </div>
+                        <button type="button" class="view-cert-btn"
+                            onclick="openCertLightbox('images/ai-tools.jpg')">View Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/devtown-1.jpg');"></div>
+                        <div class="cert-card-info">
+                            <h3>Machine Learning Specialization</h3>
+                            <p class="cert-issuer">DevTown</p>
+                            <span class="cert-field">Machine Learning</span>
+                            <h11>View more</h11>
+                            <div class="sub-cert-buttons">
+                                <button class="sub-btn"
+                                    onclick="switchSubCert(this, 'Participation', 'images/devtown-3.jpg')">Participation</button>
+                                <button class="sub-btn"
+                                    onclick="switchSubCert(this, 'Appreciation', 'images/devtown-1.jpg')">Appreciation</button>
+                            </div>
+                            <div class="sun-cert-buttons">
+                                <button class="sub-btn active"
+                                    onclick="switchSubCert(this, 'Google developers group on campus', 'images/devtown-2.jpg')">Google
+                                    developers group on campus</button>
+                                <button class="sub-btn active"
+                                    onclick="switchSubCert(this, 'Microsoft student chapter', 'images/devtown-4.jpg')">Microsoft
+                                    student chapter</button>
+                            </div>
+                        </div>
+                        <button type="button" class="view-cert-btn"
+                            onclick="openCertLightbox('images/devtown-1.jpg')">View Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/gfg.png');"></div>
+                        <div class="cert-card-info">
+                            <h3>GeeksforGeeks - Participation</h3>
+                            <p class="cert-issuer">GeeksforGeeks</p>
+                            <span class="cert-field">Interview Preparation</span>
+                        </div>
+                        <button type="button" class="view-cert-btn" onclick="openCertLightbox('images/gfg.png')">View
+                            Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/scaler.1.png');"></div>
+                        <div class="cert-card-info">
+                            <h3>Masterclass</h3>
+                            <p class="cert-issuer">Scaler</p>
+                            <span class="cert-field">Low-Level Design</span>
+                        </div>
+                        <button type="button" class="view-cert-btn"
+                            onclick="openCertLightbox('images/scaler.1.png')">View Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/devtowndbms.2.png');"></div>
+                        <div class="cert-card-info">
+                            <h3>DBMS AND SQL Mastery</h3>
+                            <p class="cert-issuer">DevTown</p>
+                            <span class="cert-field">DBMS & SQL</span>
+                            <h11>View more</h11>
+                            <div class="sub-cert-buttons">
+                                <button class="sub-btn active"
+                                    onclick="switchSubCert(this, 'Microsoft student chapter', 'images/devtowndbms.1.png')">Microsoft
+                                    student chapter</button>
+                                <button class="sub-btn active"
+                                    onclick="switchSubCert(this, 'Google developers group on campus', 'images/devtowndbms.2.png')">Google
+                                    developers group on campus</button>
+                            </div>
+                        </div>
+                        <button type="button" class="view-cert-btn"
+                            onclick="openCertLightbox('images/devtowndbms.2.png')">View Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/Scaler.2.jpeg');"></div>
+                        <div class="cert-card-info">
+                            <h3>Masterclass</h3>
+                            <p class="cert-issuer">Scaler</p>
+                            <span class="cert-field">Data Engineering</span>
+                        </div>
+                        <button type="button" class="view-cert-btn"
+                            onclick="openCertLightbox('images/Scaler.2.jpeg')">View Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/AWS.jpg');"></div>
+                        <div class="cert-card-info">
+                            <h3>Amazon Workshop</h3>
+                            <p class="cert-issuer">AWS community</p>
+                            <span class="cert-field">AWS SCD Vizag</span>
+                        </div>
+                        <button type="button" class="view-cert-btn" onclick="openCertLightbox('images/AWS.jpg')">View
+                            Certificate</button>
+                    </div>
+
+                    <div class="coverflow-card">
+                        <div class="cert-preview-img" style="background-image: url('images/Engineers day.jpg');"></div>
+                        <div class="cert-card-info">
+                            <h3>Engineers day</h3>
+                            <p class="cert-issuer">Raghu Engineering college</p>
+                            <span class="cert-field">Presentation</span>
+                        </div>
+                        <button type="button" class="view-cert-btn"
+                            onclick="openCertLightbox('images/Engineers day.jpg')">View Certificate</button>
+                    </div>
+                    <!--Add new certificates-->
+                </div>
+            </div>
+
+            <!-- Right Navigation Button -->
+            <button class="carousel-nav-btn next-btn" id="coverflowNext" aria-label="Next Certificate">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- ============================================================
+   AWARDS (Compact Fixed-Width Grid)
+   ============================================================ -->
+    <section class="rewards-section" id="rewards">
+        <div class="rewards-container-fluid">
+            <div class="section-title">
+                <h2>
+                    Awards
+
+                </h2>
+            </div>
+            <p class="rewards-section-subtitle"><span class="cert-tip">
+                    Milestones and recognitions achieved along my journey
+                </span></p>
+
+            <div class="rewards-grid">
+                <!-- Award Card 1 -->
+                <div class="reward-card">
+                    <div class="reward-preview-container">
+                        <div class="reward-icon-badge">
+                            <i class="fas fa-award"></i>
+                        </div>
+                    </div>
+
+                    <div class="reward-content">
+                        <h3 class="reward-title">Appreciation Letter</h3>
+                        <p class="reward-issuer">College</p>
+                    </div>
+
+                    <!-- View Letter Button -->
+                    <button type="button" class="reward-btn" onclick="openCertLightbox('images/LOA.jpeg')">View
+                        Letter</button> <!--Used for open image-->
+                </div>
+                <!-- Add more-->
+            </div>
+        </div>
+    </section>
+
+<!-- =================================================
+         CONTACT
+    ================================================== -->
+
+    <section class="contact-section" id="contact">
+        <div class="contact-header">
+            <span class="sub-heading">— Contact Me</span>
+            <h2>Let's Talk for <span class="highlight">Your Next Projects</span></h2>
+        </div>
+
+        <div class="contact-container">
+            <!-- Left: Contact Form -->
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="e076c018-909f-435e-8fa2-25bf85841e35">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Ex. John Doe" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required />
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" id="phone" name="phone" inputmode="numeric" pattern="[0-9]*"
+                            onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                            placeholder="Enter phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country *</label>
+                        <input type="text" id="country" name="country" placeholder="Enter Country" required />
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Your Message *</label>
+                    <textarea id="message" name="message" rows="10" placeholder="Enter here..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <!-- Right: Info Card -->
+            <div class="contact-info-card">
+
+                <div class="info-group">
+                    <h4>My Words!!</h4>
+                    <p>Le's collaborate and bring your next big idea to life.
+                        Whether you have a project in mind, a freelance opportunity,
+                        or just want to say hello, my inbox is always open.
+                        Drop me a line, and I will get back to you within 24 hours.</p>
+                </div>
+                <div class="info-group">
+                    <h4>Location</h4>
+                    <p>Visakhapatnam, Andhra Pradesh, India</p>
+                </div>
+
+                <div class="info-group">
+                    <h4>Contact</h4>
+                    <p>Email: paturiavinash15@gmail.com</p>
+                </div>
+
+                <!-- Bottom Card Accent -->
+                <div class="stay-connected-banner">
+                    <span>Stay Connected</span>
+                    <div class="connected-icons">
+                        <a href="https://www.linkedin.com/in/paturiavinash/Avinash" target="_blank"
+                            aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/PaturiAvinash078" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_avinovaeditz_/_avinovaeditz_" target="_blank"
+                            aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="assets/resume.pdf" target="_blank" aria-label="Resume">
+                            <i class="fa-solid fa-file"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================================================
+         FOOTER
+    ================================================== -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Paturi Avinash. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- =================================================
+         JAVASCRIPT
+    ================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
